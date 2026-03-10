@@ -39,7 +39,3 @@ Chrome extension to control the playback speed of any video or audio on any webs
 A content script runs on every page and finds all `<video>` and `<audio>` elements. When you set a speed, it applies `playbackRate` to every media element on the page. A MutationObserver watches for new media elements added to the DOM so dynamically loaded players are covered automatically.
 
 Your speed preference is saved to `chrome.storage.local` and restored on every page load.
-
-## License
-
-MIT
